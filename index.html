@@ -1,27 +1,32 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Tony Ternard – Responsable magasinier avec plus de 20 ans d'expérience en logistique, gestion de stocks, réception, expédition, inventaires et management d'équipes.">
-<meta name="keywords" content="Responsable magasinier, logistique, gestion de stocks, cariste, préparation de commandes, entrepôt, inventaire, Tony Ternard, magasinier expérimenté, entrepôt France, poste logistique, CDI logistique">
-<meta name="author" content="Tony Ternard">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Tony Ternard – Responsable Magasinier</title>
+  <meta name="description" content="Tony Ternard – Responsable magasinier avec plus de 20 ans d'expérience en logistique, gestion de stocks, réception, expédition, inventaires et management d'équipes.">
+  <meta name="keywords" content="Responsable magasinier, logistique, gestion de stocks, cariste, préparation de commandes, entrepôt, inventaire, Tony Ternard, magasinier expérimenté, entrepôt France, poste logistique, CDI logistique">
+  <meta name="author" content="Tony Ternard">
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background: #f9f9f9; color: #333; }
-   header, footer { background: #c0392b; color: #fff; padding: 20px; text-align: center; }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
+    header, footer { background: #c0392b; color: #fff; padding: 20px; text-align: center; }
     nav a { margin: 0 15px; color: #fff; text-decoration: none; }
-    .container { padding: 20px; max-width: 900px; margin: auto; background: #fff; }
-    h1, h2 { color: #444; }
-    ul { padding-left: 20px; }
-    .experience a { color: #007BFF; text-decoration: none; }
+    .container { max-width: 900px; margin: auto; padding: 20px; background: #fff; }
+    h1 { color: #fff; }
+    h2 { color: #444; }
+    a { color: #007BFF; text-decoration: none; }
+    img { max-width: 200px; border-radius: 20px; margin-bottom: 20px; }
+    form input, form textarea, form button {
+      width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px;
+    }
+    form button { background-color: #c0392b; color: white; border: none; cursor: pointer; }
+    form button:hover { background-color: #a93226; }
   </style>
 </head>
 <body>
 
 <header>
-  <h1 style="color: #ffffff;">Tony Ternard</h1>
+  <h1>Tony Ternard</h1>
   <p>Responsable Magasinier – Plus de 20 ans d’expérience</p>
   <nav>
     <a href="#a-propos">À propos</a>
@@ -36,11 +41,11 @@
 
   <section id="a-propos">
     <h2>À propos</h2>
-    <img src="tony.jpg" alt="Photo de Tony Ternard" style="max-width: 200px; border-radius: 20px; margin-bottom: 20px;">
+    <img src="tony.jpg" alt="Photo de Tony Ternard" />
     <p>Professionnel de la logistique, rigoureux, autonome et organisé, j'ai acquis une solide expérience dans la gestion de stocks, la réception de marchandises, la préparation de commandes et la coordination d’équipes.</p>
   </section>
 
-  <section id="experience" class="experience">
+  <section id="experience">
     <h2>Expérience</h2>
     <h3>Mecacel-Industrie (2017 - aujourd’hui)</h3>
     <p><a href="https://www.mecacel-industrie.fr" target="_blank">Visiter le site</a></p>
@@ -81,7 +86,8 @@
       <li>Lean, 5S, indicateurs de performance</li>
     </ul>
   </section>
-   <section id="association">
+
+  <section id="association">
     <h2>Association – VMEH77</h2>
     <p>Je suis membre de l’association <strong>VMEH77</strong> (Visite des Malades en Établissements Hospitaliers), qui œuvre à redonner le sourire aux personnes hospitalisées ou en maison de retraite par des visites de bénévoles.</p>
     <p>Nous écoutons, discutons, accompagnons… pour créer du lien humain là où il est souvent absent.</p>
@@ -90,8 +96,13 @@
 
   <section id="contact">
     <h2>Contact</h2>
-    <p><strong>Téléphone :</strong> 07 68 93 40 78</p>
-    <p><strong>Email :</strong> <a href="mailto:T84t77@outlook.fr">T84t77@outlook.fr</a></p>
+    <form action="https://formsubmit.co/T84t77@outlook.fr" method="POST">
+      <input type="text" name="name" placeholder="Votre nom" required />
+      <input type="email" name="email" placeholder="Votre email" required />
+      <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+      <input type="text" name="_honey" style="display:none" />
+      <button type="submit">Envoyer</button>
+    </form>
   </section>
 
 </div>
@@ -102,4 +113,7 @@
 
 </body>
 </html>
-<p><strong>Email :</strong> <a href="mailto:T84t77@outlook.fr">T84t77@outlook.fr</a></p>
+
+ 
+ 
+  
